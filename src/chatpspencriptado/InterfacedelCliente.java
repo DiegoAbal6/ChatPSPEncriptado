@@ -13,7 +13,7 @@ import javax.net.ssl.SSLSocketFactory;
  *
  * @author dabalrodriguez
  */
-public class ICliente extends javax.swing.JFrame {
+public class InterfacedelCliente extends javax.swing.JFrame {
 
     private PrintWriter pw;
     private BufferedReader br;
@@ -23,7 +23,7 @@ public class ICliente extends javax.swing.JFrame {
     /**
      * Creates new form ICliente
      */
-    public ICliente(SSLContext sc) {
+    public InterfacedelCliente(SSLContext sc) {
         initComponents();
         try {
             this.sc = sc;

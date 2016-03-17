@@ -19,7 +19,7 @@ import javax.net.ssl.SSLSocketFactory;
  *
  * @author dabalrodriguez
  */
-public class IServer extends javax.swing.JFrame {
+public class InterfacedelServer extends javax.swing.JFrame {
 
     private int puerto = 9090;
     private SSLServerSocket ssv;
@@ -31,7 +31,7 @@ public class IServer extends javax.swing.JFrame {
     /**
      * Creates new form IServer
      */
-    public IServer(SSLContext sc) {
+    public InterfacedelServer(SSLContext sc) {
         try { //Igual que en el Cliente
             this.sc = sc;
             SSLServerSocketFactory ssf = sc.getServerSocketFactory();

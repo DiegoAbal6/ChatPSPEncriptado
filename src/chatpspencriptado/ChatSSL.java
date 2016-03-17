@@ -44,8 +44,8 @@ public class ChatSSL {
             //Socket server con el ssl
             System.out.println("El socket del servidor ha sido creado");
             //Objetos
-            IServer is = new IServer(sc);
-            ICliente ic = new ICliente(sc);
+            InterfacedelServer is = new InterfacedelServer(sc);
+            InterfacedelCliente ic = new InterfacedelCliente(sc);
          
             System.out.println("El socket del cliente está siendo verificado por el servidor");
             
