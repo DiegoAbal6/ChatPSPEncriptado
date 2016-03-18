@@ -36,8 +36,7 @@ public class InterfacedelServer extends javax.swing.JFrame {
             this.sc = sc;
             SSLServerSocketFactory ssf = sc.getServerSocketFactory();
             ssv = (SSLServerSocket) ssf.createServerSocket(puerto);
-            SSLSocketFactory sslf = sc.getSocketFactory();
-            ss = (SSLSocket) sslf.createSocket("localhost", puerto);
+            
             //flujo de entrada y salida de texto
             setTitle("Server");
             setVisible(true);
